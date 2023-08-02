@@ -13,3 +13,22 @@ class Solution {
 }
 
 // supr les ! d'un String
+
+String result = name.replaceAll("([a-z])","");
+result = result.replaceAll("", ".");
+return result;
+
+public class AbbreviateTwoWords {
+
+    public static String abbrevName(String name) {
+      
+      String [] words = name.split(" ");
+      String Letter = "";
+      
+     for (String word : words ){
+          word.charAt(0);
+       Letter = word;
+          }
+      return "";
+    }
+  }
